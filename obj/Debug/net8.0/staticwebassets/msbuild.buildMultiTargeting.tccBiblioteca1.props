@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\tccBiblioteca1.props" />
+</Project>
