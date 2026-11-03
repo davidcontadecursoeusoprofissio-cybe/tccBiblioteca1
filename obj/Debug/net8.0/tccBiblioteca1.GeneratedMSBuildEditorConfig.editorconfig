@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\CENTE\tccBiblioteca1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/CENTE/tccBiblioteca1/Pages/CadastroLivroModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9MaXZyb01vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/CENTE/tccBiblioteca1/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

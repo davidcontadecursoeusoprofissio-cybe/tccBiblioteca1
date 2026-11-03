@@ -1,0 +1,18 @@
+@page
+@model tccBiblioteca1.pages.CadastroLivroModel
+
+<h1>Biblioteca</h1>
+
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+
+        <label for="titulo">Título</label>
+        <input id="titulo" name="Titulo" type="text" required />
+
+        <label for="capa">cole a URL da capa</label>
+        <input id="capa" name="CapaUrl" type="text" required />
+
+        <button class="button2" type="submit">Cadastrar</button>
+    </form>
+</div>
