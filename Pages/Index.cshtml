@@ -1,4 +1,5 @@
-﻿@page
+﻿
+@page
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -8,16 +9,15 @@
     @foreach (var item in Model.imagem)
     {
         <article class="product-card">
-            <img class="produtos" src="@item.UrlIMG" alt="Imagem do produto" />
-            <p>@item.texto</p>
-            <from method="post">
+            <img class="produtos" src="@item.CapaUrl" alt="Capa do livro" />
+            <p>@item.Titulo</p>
+
+            <form method="post">
                 <input type="hidden" name="id" value="@item.Id" />
                 <button type="submit" class="btn btn-danger">Deletar</button>
-              
-            </from>
-
+            </form>
         </article>
     }
-
 </div>
+
 
